@@ -11,6 +11,7 @@ body{
     background-color: #c9d6ff;
     background: linear-gradient(to right, #e2e2e2, #c9d6ff);
     display: flex;
+    flex: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -47,7 +48,7 @@ body{
 }
 
 .container button{
-    background-color: #2da8a6;
+    background-color: hsl(40, 65%, 60%);
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -144,7 +145,7 @@ body{
 }
 
 .social-icons a:hover{
-    background: linear-gradient(to right, #15cb88, #0d0129);
+    background: hsl(40, 65%, 60%);
     color: white;
 }
 
@@ -168,7 +169,7 @@ body{
 .toggle{
     background-color: #35a82d;
     height: 100%;
-    background: linear-gradient(to right, #15cb88, #0d0129);
+    background: hsl(40, 65%, 60%);
     color: #fff;
     position: relative;
     left: -100%;
